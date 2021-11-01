@@ -1,8 +1,8 @@
-import {Wrapper} from './components';
+import {Wrapper, MenuIcon} from './components';
 
 const MenuButton = () => {
   return (
-    <Wrapper></Wrapper>
+    <Wrapper><MenuIcon/></Wrapper>
   );
 }
 
