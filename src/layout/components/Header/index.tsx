@@ -1,8 +1,12 @@
-import {Wrapper} from './styled';
+import {Wrapper, ContentWrapper} from './styled';
+import {MenuButton} from './components';
 
 const Header = () => {
   return (
-    <Wrapper></Wrapper>
+    <Wrapper>
+      <MenuButton/>
+      <ContentWrapper/>
+    </Wrapper>
   );
 }
 
