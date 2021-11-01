@@ -28,6 +28,22 @@
 
 import ReactDOM from 'react-dom';
 
+import Style from './style/GlobalStyle';
+import EditorSection from 'layout/components/EditorSection';
+import StatisticsSection from 'layout/components/StatisticsSection';
+import Header from 'layout/components/Header';
+
+const App = () => {
+  return (
+    <>
+      <Style/>
+      <EditorSection/>
+      <StatisticsSection/>
+      <Header/>
+    </>
+  );
+}
+
 ReactDOM.render(
-  <></>, document.getElementById('app-root')
+  <App/>, document.getElementById('app-root')
 );

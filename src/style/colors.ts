@@ -1,6 +1,6 @@
 const colors = {
   white: '#FFFFFF',
-  whiteLinen: '#F9F1EB',
+  bone: '#E8D4C6',
   calico: '#DFB597',
   brickRed: '#BD2F48',
   craterBrown: '#452727',
