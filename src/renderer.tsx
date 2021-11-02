@@ -28,19 +28,18 @@
 
 import ReactDOM from 'react-dom';
 
-import Style from './style/GlobalStyle';
+import StyleProvider from 'style';
 import EditorSection from 'layout/components/EditorSection';
 import StatisticsSection from 'layout/components/StatisticsSection';
 import Header from 'layout/components/Header';
 
 const App = () => {
   return (
-    <>
-      <Style/>
+    <StyleProvider>
       <EditorSection/>
       <StatisticsSection/>
       <Header/>
-    </>
+    </StyleProvider>
   );
 }
 
