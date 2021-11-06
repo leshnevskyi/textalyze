@@ -3,7 +3,7 @@ const colors = {
   bone: '#E8D4C6',
   calico: '#DFB597',
   brickRed: '#BD2F48',
-  craterBrown: '#452727',
+  cowboy: '#4D2A2A',
   aubergine: '#340B0B',
 };
 
